@@ -1,0 +1,22 @@
+name: laf-client
+version: 0.1
+
+authors:
+  - Delta Lyczak <dlyczak@protonmail.com>
+
+targets:
+  moodle-cli:
+    main: src/moodle-cli.cr
+
+dependencies:
+  myhtml:
+    github: kostya/myhtml
+  crotp:
+    github: philnash/crotp
+  duo-client:
+    git: https://git.lyczak.net/del/duo-client.git
+    version: 0.1
+
+crystal: 1.0.0
+
+license: MIT
