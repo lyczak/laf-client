@@ -2,8 +2,7 @@ require "crotp"
 require "yaml"
 require "duo-client"
 
-require "./moodle-client"
-require "./cas-client"
+require "./laf-client"
 
 class Config
   include YAML::Serializable
