@@ -16,6 +16,8 @@ dependencies:
   duo-client:
     git: https://git.lyczak.net/del/duo-client.git
     version: 0.1
+  router:
+    github: tbrand/router.cr
 
 crystal: 1.0.0
 
